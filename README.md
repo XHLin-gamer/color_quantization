@@ -88,15 +88,18 @@ $$  t^{'}(x)=\frac{1}{k}\sum_{\Omega_{\mu}}{\phi(x,y)t(y)w_{s}(x,y)w_{m}(x,y)w_d
 where $\Omega_{\mu}$ denotes the kernel of radius at x, and $k$ is the
 vector normalizing term. The tangent vector $t(\cdot{})$ is assumed
 to be $2\pi$-periodic.[[2]](#2)
+
 $$
          w_s(x,y) = \left\{ \begin{array}{cl}
                     1 & :  \textbf{if} \quad |x-y|<\mu \\
                     0 & : \textbf{otherwise}
                     \end{array} \right.
 $$
+
 The above function defines the **spacial weight function** $\omega_s$. A box filter is applied to the total filter.
 
  $w_m$ and $w_d$ are key weights that mean magnitude weight function and direction weight functions individually.
+
 $$
     \begin{array}{cl}
         w_m(x,y) & = \frac{[\hat{g}(y)-\hat{g}(x) + 1]}{2}\\
